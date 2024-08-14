@@ -1,0 +1,221 @@
+.offer-double {
+  background-image: url('../images/bg-offer.png');
+  height: 350px;
+  background-size: cover;
+  margin-top: -20px;
+  background-attachment: fixed;
+}
+
+.dont-no {
+  display: flex;
+  flex-direction: column;
+}
+
+.offer_double {
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 45px;
+  margin-top: 100px;
+  margin-left: 150px;
+  width: 520px;
+  margin-bottom: 20px;
+}
+
+.second_table {
+  height: 40px;
+  width: 180px;
+  word-spacing: 3px;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-left: 153px;
+  background-color: rgb(242, 183, 5);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.second_table:hover {
+  background-color: rgb(204, 204, 255);
+  color: white;
+}
+
+.chef-details {
+  display: flex;
+  background-color: black;
+  height: 850px;
+  flex-direction: column;
+}
+
+.our-chefs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40px;
+  height: 100px;
+}
+
+.leaf-sec {
+  margin-left: 490px;
+  height: 65px;
+  margin-right: 3px;
+}
+
+.our-best-one {
+  color: white;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.chef-comp {
+  color: white;
+  margin-left: 420px;
+  margin-top: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.chef-line1 {
+  font-size: 18px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  width: 640px;
+}
+
+.chef-line2 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 18px;
+  margin-left: 35px;
+}
+
+.chef-line3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  margin-left: 65px;
+}
+
+.chef-slider {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.chef-1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 130px;
+}
+
+.chef-2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.chef-3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.chef-4 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+
+.chef-1-pic {
+  height: 400px;
+  width:280px;
+  border-radius: 2px;
+}
+
+.chef-1-name {
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 22px;
+  word-spacing: 2px;
+  margin-left: 62px;
+  margin-bottom: 3px;
+}
+
+.type-of-chef {
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 84px;
+}
+
+.type-of-chef-2 {
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 93px;
+}
+
+.type-of-chef-3 {
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 93px;
+}
+
+.type-of-chef-4 {
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 100px;
+}
+
+.icons-follow {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.facebook {
+  height: 25px;
+  margin-left: 88px;
+  cursor: pointer;
+}
+
+.facebook-2 {
+  height: 25px;
+  margin-left: 82px;
+  cursor: pointer;
+}
+
+.facebook-3 {
+  height: 25px;
+  margin-left: 86px;
+  cursor: pointer;
+}
+
+.facebook-4 {
+  height: 25px;
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+.insta {
+  height: 25px;
+  cursor: pointer;
+}
+
+.youtube {
+  height: 25px;
+  cursor: pointer;
+}

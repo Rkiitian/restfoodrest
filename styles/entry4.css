@@ -1,0 +1,443 @@
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #333333;
+  transition: opacity 5s, visibility 5s;
+}
+
+.loader--hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+body {
+  margin: 0;
+  height: 2000px;
+}
+
+.loader::after {
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 15px solid #dddddd;
+  border-top-color: #009578;
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite;
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.our-menu {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.menu-icon {
+  height: 50px;
+  margin-right: 2px;
+  margin-left: 550px;
+}
+
+.topic-menu {
+  font-size: 30px;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+}
+
+
+.full-menu {
+  background-color: black;
+}
+
+.all-in-menu {
+  background-color: rgb(11, 11, 11);
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+}
+
+.all-in-menu1 {
+  background-color: rgb(11, 11, 11);
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-coffee {
+  display: flex;
+  flex-direction: row;
+}
+
+.first-pizza-shop {
+  display: flex;
+  flex-direction: column;
+  margin-left: 90px;
+  height: 400px;
+}
+
+.first-pizza-shop1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  height: 400px;
+}
+
+.first-pizza-shop12 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  height: 350px;
+}
+
+.pizza-menu-food {
+  display: flex;
+  margin-left: 0px;
+  flex-direction: row;
+  background-color: rgb(11, 11, 11);
+  align-items: center;
+  height: 80px;
+}
+
+.menu-pizza-title {
+  color: #17B169;
+  font-size: 45px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 650;
+}
+
+.food-pizza {
+  height: 40px;
+  margin-left: 630px;
+}
+
+.food-pizza1 {
+  height: 40px;
+  margin-left: 500px;
+}
+
+.food-pizza2 {
+  height: 45px;
+  margin-left: 580px;
+}
+
+.regular-pizza {
+  color: #17d17a;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 50;
+  font-size: 24px;
+  margin-left: 153px;
+  word-spacing: 4px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.special-pizza {
+  color: #17d17a;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 50;
+  font-size: 24px;
+  margin-left: 70px;
+  word-spacing: 4px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.special-pizza1 {
+  color: #17d17a;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 50;
+  font-size: 24px;
+  margin-left: 98px;
+  word-spacing: 2px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.special-pizza23 {
+  color: #17d17a;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 50;
+  font-size: 24px;
+  margin-left: 170px;
+  word-spacing: 2px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.special-pizza24 {
+  color: #17d17a;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 50;
+  font-size: 24px;
+  margin-left: 158px;
+  word-spacing: 2px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.type-of-pizza1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+}
+
+.type-of-pizza11 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.type-of-pizza23 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 170px;
+}
+
+.type-of-pizza24 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 160px;
+}
+
+.type-of-pizza {
+  display: flex;
+  flex-direction: column;
+  margin-left: 153px;
+}
+
+.margeta {
+  color: wheat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 550;
+  margin-bottom: 2px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.composition {
+  color: rgba(245, 222, 179, 0.925);
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 0;
+  width: 250px;
+}
+
+.second-pizza-shop {
+  display: flex;
+  flex-direction: column;
+}
+
+.pizza-menu-price {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  margin-top: 3px;
+  margin-left: 20px;
+}
+
+.pizza-menu-price1 {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  height: 350px;
+  margin-top: 3px;
+  margin-left: 100px;
+}
+
+.pizza-menu-price145 {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  height: 350px;
+  margin-top: 3px;
+  margin-left: 96px;
+}
+
+.pizza-menu-price25 {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  height: 350px;
+  margin-top: 3px;
+  margin-left: 125px;
+}
+
+.price-12-1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.inches-12 {
+  color: #17d17a;
+}
+
+.price-16-1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.inches-16 {
+  color: #17d17a;
+}
+
+.dollar-pay {
+  color: white;
+  margin-bottom: 60px;
+}
+
+.dollar-pay1 {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.dollar-pay12 {
+  color: white;
+  margin-top:30px;
+  margin-bottom: 50px;
+}
+
+.dollar-pay13 {
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 4px;
+}
+
+.dollar-pay14 {
+  color: white;
+  margin-bottom: 3.5px;
+}
+
+.pizza-images1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.pizza-images56 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 65px;
+}
+
+.pizza-images23 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+
+.pizza-images {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 55px;
+}
+
+.pizza-mg {
+  height: 120px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.second-mg56 {
+  height: 100px;
+  width: 110px;
+  margin-left: 35px;
+  margin-top: 15px;
+}
+
+.first-mg1 {
+  height: 120px;
+  width: 120px;
+}
+
+.first-mg23 {
+  height: 100px;
+  margin-top: 10px;
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.first-mg56 {
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.third-mg23 {
+  height: 100px;
+  width: 90px;
+  margin-top: 20px;
+}
+
+.third-mg56 {
+  height: 100px;
+  width: 120px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.first-mg:hover {
+  transform: scale(1.1) translateX(10px);
+}
+
+.first-mg1:hover {
+  transform: scale(1.1) translateY(-5px);
+}
+
+.first-mg23:hover {
+  transform: scale(1.2) translateY(-5px);
+}
+
+.first-mg56:hover {
+  transform: scale(1.2) translateY(-5px);
+}
+
+.second-mg:hover {
+  transform: scale(1.1) translateX(-20px);
+}
+
+.second-mg56:hover {
+  transform: scale(1.1) translateX(-20px);
+}
+
+.third-mg:hover {
+  transform: scale(1.1) translateY(10px);
+}
+
+.third-mg23:hover {
+  transform: scale(1.1) translateY(10px);
+}
+
+.third-mg56:hover {
+  transform: scale(1.1) translateY(10px);
+}
+

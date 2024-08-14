@@ -1,0 +1,206 @@
+.cold-drink-div {
+  background-color: black;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+}
+
+.live-div {
+  height: 600px;
+  margin-top: 140px;
+  margin-left: 220px;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 400px;
+  overflow: hidden;
+}
+
+.video-is-live {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.drinks-menu {
+  height: 500px;
+  margin-top: 80px;
+  display: flex;
+  margin-left: 100px;
+  flex-direction: column;
+}
+
+.drink-title {
+  color: rgb(255, 255, 255);
+  font-size: 52px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  margin-top: 49px;
+}
+
+.first-drink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 80px;
+  margin-top: 40px;
+}
+
+.drinks-cocktail {
+  height: 50px;
+  margin-top: -12px;
+}
+
+.menu-of-drinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.drinks-menu-12 {
+  color: #aaf099;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 100px;
+}
+
+.drinks-menu-25 {
+  color: #aaf099;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 85px;
+}
+
+.drinks-menu-26 {
+  color: #aaf099;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 120px;
+}
+
+.drinks-menu-27 {
+  color: #aaf099;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 103px;
+}
+
+.drinks-menu-28 {
+  color: #aaf099;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 113px;
+}
+
+.drinks-menu-29 {
+  color: #aaf099;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 120px;
+}
+
+.drinks-menu-30 {
+  color: #aaf099;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 96px;
+}
+
+
+.drinks-menu-13 {
+  color: #aaf099;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 118px;
+}
+
+.drinks-menu-14 {
+  color: #aaf099;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 105px;
+}
+
+.drinks-menu-15 {
+  color: #aaf099;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 114px;
+}
+
+.drinks-menu-16 {
+  color: #aaf099;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 123px;
+}
+
+.drinks-menu-17 {
+  color: #aaf099;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 100px;
+}
+
+.drinks-menu-18 {
+  color: #aaf099;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 54px;
+}
+
+.drinks-menu-21 {
+  color: #aaf099;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 39px;
+}
+
+.drinks-menu-19 {
+  color: #aaf099;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 86px;
+}
+
+.drinks-menu-20 {
+  color: #aaf099;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 101px;
+}
+
+.menu-price-of-drinks {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.drink-menu-price {
+  color: #E5FF80;
+  font-family: "Dancing Script", cursive;
+  font-size: 19px;
+  margin-top: 16px;
+}
+
+.menu-ok-of {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
